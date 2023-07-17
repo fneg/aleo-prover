@@ -1,4 +1,4 @@
-# Aleo Light Prover
+#!Aleo!Light!Prover
 
 ## Introduction
 
@@ -62,7 +62,7 @@ You can enable debug logging by `--debug` option.
 
 When starting the prover, there will be a line of log showing the structure of the thread pools.
 
-**About the thread pool configuration**
+#*About the thread pool configuration**
 
 The prover will check if the number of threads can be divided by 12, 10 or 8. It will then create multiple thread pools with that number of threads per pool. Otherwise, the prover will create thread pools with 6 threads per pool, using as many threads as possible up to the specified number.
 
@@ -125,3 +125,4 @@ Initial release.
 ## License
 
 GPL-3.0-or-later
+ 
